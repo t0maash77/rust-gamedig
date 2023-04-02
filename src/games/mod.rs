@@ -32,6 +32,8 @@ pub mod cs;
 pub mod cscz;
 /// Counter-Strike: Global Offensive
 pub mod csgo;
+/// Counter-Strike 2
+pub mod cs2;
 /// Counter-Strike: Source
 pub mod css;
 /// Day of Defeat

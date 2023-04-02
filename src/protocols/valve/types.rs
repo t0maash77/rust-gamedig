@@ -184,6 +184,8 @@ pub enum SteamApp {
     ALIENS,
     /// Counter-Strike: Global Offensive
     CSGO,
+    /// Counter-Strike 2
+    CS2,
     /// The Ship
     TS,
     /// Garry's Mod
@@ -259,6 +261,7 @@ impl SteamApp {
             SteamApp::L4D2 => Engine::new_source(550),
             SteamApp::ALIENS => Engine::new_source(630),
             SteamApp::CSGO => Engine::new_source(730),
+            SteamApp::CS2 => Engine::new_source(2279720),
             SteamApp::TS => Engine::new_source(2400),
             SteamApp::GM => Engine::new_source(4000),
             SteamApp::AOC => Engine::new_source(17510),
